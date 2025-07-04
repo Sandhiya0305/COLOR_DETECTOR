@@ -3,7 +3,7 @@ from PIL import Image
 from utils import get_limits
 
 video = cv2.VideoCapture(0)
-yellow = (255, 0, 255)
+yellow = (0, 255, 255)
 while True:
     ret, frame = video.read()
 
